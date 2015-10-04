@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TCTest</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="run_request">Run Requests</string>
+
+    <string name="request_1_not_started_yet">Request 1 one not started</string>
+    <string name="request_2_not_started_yet">Request 2 one not started</string>
+    <string name="request_3_not_started_yet">Request 3 one not started</string>
+
+    <string name="request_1_started">Request 1 started</string>
+    <string name="request_2_started">Request 2 started</string>
+    <string name="request_3_started">Request 3 started</string>
+
+    <string name="request_1_finished">Request 1 finished: the 10th character is \'%1s\'</string>
+    <string name="request_1_finished_no_param">Request 1 finished: </string>
+    <string name="request_2_finished">Request 2 finished:</string>
+    <string name="request_3_finished">Request 3 finished: the word \'truecaller\' occurs %1d times in the page</string>
+
+    <string name="request_1_error">Request 1 error</string>
+    <string name="not_enough_characters">Not enough characters</string>
+    <string name="request_2_error">Request 2 error</string>
+    <string name="request_3_error">Request 3 error</string>
+
+    <string name="url">http://www.truecaller.com/support</string>
+    <string name="offline">You need connection in order to perform the task</string>
+    <string name="truecaller">truecaller</string>
+
+</resources>

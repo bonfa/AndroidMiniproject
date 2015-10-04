@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/runButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/run_request" />
+
+        <TextView
+            android:id="@+id/firstTenthCharacterAnswerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/runButton"
+            android:layout_marginTop="@dimen/textview_default_margin_top"
+            android:text="@string/request_1_not_started_yet" />
+
+        <ProgressBar
+            android:id="@+id/firstTenthCharacterProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/firstTenthCharacterAnswerTextView"
+            android:layout_alignTop="@id/firstTenthCharacterAnswerTextView"
+            android:layout_toRightOf="@id/firstTenthCharacterAnswerTextView" />
+
+        <TextView
+            android:id="@+id/everyTenthCharacterAnswerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstTenthCharacterAnswerTextView"
+            android:layout_marginTop="@dimen/textview_default_margin_top"
+            android:text="@string/request_2_not_started_yet" />
+
+        <ProgressBar
+            android:id="@+id/everyTenthCharacterProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/everyTenthCharacterAnswerTextView"
+            android:layout_alignBottom="@id/everyTenthCharacterAnswerTextView"
+            android:layout_toRightOf="@id/everyTenthCharacterAnswerTextView" />
+
+
+        <TextView
+            android:id="@+id/wordCounterAnswerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/everyTenthCharacterAnswerTextView"
+            android:layout_marginTop="@dimen/textview_default_margin_top"
+            android:text="@string/request_3_not_started_yet" />
+
+        <ProgressBar
+            android:id="@+id/wordCounterProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/wordCounterAnswerTextView"
+            android:layout_alignTop="@id/wordCounterAnswerTextView"
+            android:layout_toRightOf="@id/wordCounterAnswerTextView" />
+    </RelativeLayout>
+
+</ScrollView>
